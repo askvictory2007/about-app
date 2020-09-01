@@ -1,0 +1,39 @@
+{
+    "expo": {
+        "name": "Blank Template",
+        "slug": "Awesome",
+        "privacy": "public",
+        "sdkVersion": "36.0.0",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./app/assets/icon.png",
+        "splash": {
+            "image": "./app/assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "web": {
+            "config": {
+              "firebase": {
+                "appId": "1:553164415296:web:ff471fee4ec25393e09aa5",
+                "apiKey": "AIzaSyDzl16rkyyaYiBeNWEuJbQU2b_BjaHLcq0",
+                "measurementId": "G-P1KL2P1C37"
+              }
+            }
+          }
+    }
+}
